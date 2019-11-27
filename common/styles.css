@@ -1468,6 +1468,34 @@ ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color:
         cursor: all-scroll;
 }
 
+.mt-n1 {
+        margin-top: -1rem !important;
+}
+.custom {
+        width: 250px !important;
+}
+.row.vertical-divider {
+        overflow: hidden;
+      }
+      .row.vertical-divider > div[class^="col-"] {
+        text-align: center;
+        padding-bottom: 100px;
+        margin-bottom: -100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: 1px solid #F2F7F9;
+        border-right: 1px solid #F2F7F9;
+      }
+      .row.vertical-divider div[class^="col-"]:first-child {
+        border-left: none;
+      }
+      .row.vertical-divider div[class^="col-"]:last-child {
+        border-right: none;
+      }
+
+      .hello {
+              margin-left: 0%;
+      }
 /* RESPONSIVE */
 
 @media only screen and (max-width: 767px) {
