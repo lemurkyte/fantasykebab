@@ -940,11 +940,9 @@ section {
         background: #ddd;
 }
 
-.brdr-b-primary{ border-bottom: 2px solid #EF0031; }
-
-.brdr-primary-2{ border: 2px solid #EF0031; }
-
-.brdr-primary-3{ border: 3px solid #EF0031; }
+.brdr-b-primary{ border-bottom: 10px solid rgb(255, 209, 3);}
+.brdr-primary-2{ border: 2px solid rgb(255, 209, 3); }
+.brdr-primary-3{ border: 3px solid rgb(255, 209, 3); }
 
 .brdr-style-1{  position: absolute;left: 0; right: 0; bottom: 0; ; z-index: 1; height: 8px; }
 .brdr-style-1:after{ content:''; display: block; height: 60%; background: #1F8330;  z-index: 1; }
@@ -1163,7 +1161,7 @@ section {
 
 .sided-half { overflow: hidden; }
 
-.sided-half .s-left { float: left; }
+.sided-half .s-left { float: left;}
 
 .sided-half .s-right { float: right; }
 
@@ -1200,7 +1198,7 @@ section {
 
 .sided-90x { position: relative; }
 
-.sided-90x .s-left { position: absolute; top: 0; left: 0; height: 90px; width: 90px; }
+.sided-90x .s-left { position: absolute; top: 0; left: -3%; height: 120px; width: 120px;}
 
 .sided-90x .s-left.rounded img { border-radius: 90px; overflow: hidden; }
 
@@ -1280,10 +1278,10 @@ ul.selecton{ text-align: center;  font-size: 1.2em;  }
 ul.selecton li > a{ padding: 15px 30px;   }
 
 ul.selecton li:hover a,
-ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color: #FFFFFF;  }
+ul.selecton li a.active{ border-radius: 7px; background: rgb(255, 196, 0); color: rgb(0, 0, 0);  }
 
-.food-menu{ display: none;  }
-.food-menu.active{ opacity: 0; display: block!important; animation: full-opacity-anim .3s forwards ; }
+.food-menu{ display: none; border-radius: 10px; background-color: white; color: black;}
+.food-menu.active{ opacity: 0; display: block!important; animation: full-opacity-anim .3s forwards; }
 
 @keyframes full-opacity-anim{
         100%{ opacity: 1; }
@@ -1496,6 +1494,8 @@ ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color:
       .hello {
               margin-left: 0%;
       }
+
+    
 /* RESPONSIVE */
 
 @media only screen and (max-width: 767px) {
@@ -1548,7 +1548,8 @@ ul.icon li a{ padding: 10px;  }
 
 .br-3{ border-radius: 3px;  }
 .br-4{ border-radius: 4px;  }
-.br-5{ border-radius: 5px;  }
+.br-5{ border-radius: 5px; }
+.br-7{border-radius: 7px;}
 
 
 
