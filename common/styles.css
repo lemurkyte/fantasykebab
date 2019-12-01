@@ -1494,7 +1494,10 @@ ul.selecton li a.active{ border-radius: 7px; background: rgb(255, 196, 0); color
       .hello {
               margin-left: 0%;
       }
-
+.dude {
+        height: 200px;
+        width: auto;
+}
     
 /* RESPONSIVE */
 
