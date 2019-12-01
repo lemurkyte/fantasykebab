@@ -769,7 +769,7 @@ section {
 
 /* BACKGROUND COLOR*/
 
-.bg-seller{ background: url(../img/2x/fire-cropped.png)  no-repeat; background-size: ; position: relative; z-index: 1; }
+.bg-seller{ background: url(../img/2x/fire-cropped.png)  no-repeat; position: relative; z-index: 1; }
 .bg-seller2{ background: url(../img/2x/bg.png)  no-repeat; background-size: cover; position: relative; z-index: 1; }
 
 /* .bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; } */
@@ -875,7 +875,7 @@ section {
 
 .bg-3 {  background: url(../images/story_bg_2.png) no-repeat center;  background-size: 100%; }
 
-.bg-4 {  background: url(../images/slider_2_1920_600.jpg) no-repeat center;  background-size: cover; }
+.bg-4 {  background: url(../img/2x/chair.png) no-repeat center;  background-size: cover; }
 
 .bg-5 {  background: url(../images/slider_3_1920_600.jpg) no-repeat center;  background-size: cover; }
 
