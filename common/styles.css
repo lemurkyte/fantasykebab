@@ -55,7 +55,7 @@ h5 { font-size: 1.3em; }
 
 h6 {  font-size: .95em; letter-spacing: 1px; }
 
-a, button { display: inline-block; text-decoration: none; color: inherit; line-height: 1.3; -webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out;}
+a, button { display: inline-block; text-decoration: none; color: inherit; line-height: 100px; -webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out;}
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
@@ -134,13 +134,14 @@ header {
         left: 0;
         right: 0;
         text-align: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6951155462184874) 46%, rgba(0,0,0,0) 100%);
         z-index: 1000;
-        padding: 25px 0;
         font-weight: 600;
         color: #fff;
 }
 
-header:after {
+/* header:after {
         content: '';
         height: 10px;
         position: absolute;
@@ -150,19 +151,19 @@ header:after {
         background: url(../images/triangle_bg_black.png) repeat-x;
         background-size: 26px 10px;
         opacity: .6;
-}
+} */
 
-header:before {
+/* header:before {
         content: '';
         position: absolute;
         top: 0;
         bottom: 0px;
         left: 0;
         right: 0;
-        background: #000;
+
         z-index: -1;
         opacity: .6;
-}
+} */
 
 header i {
         font-size: 1.1em;
@@ -177,29 +178,27 @@ header:after {
 
 header .logo {
         float: center;
-        height: 130px;
+        height: 150px;
 }
 
 header .logo img {
-        height: 70%;
+        height: 100%;
         width: auto;
 }
 
 header ul.main-menu > li > a {
         height: 100%;
-        line-height: 70px;
+        line-height: 100px;
         padding: 0px 15px;
 }
 
-/* SEARCH AREA */
+/* PHONE NAV AREA */
 
 header .left-area {
         float: left;
-        height: 100%;
-        height: 70px;
-        padding: 10px 0;
-        position: relative;
+        text-align: left;
         font-size: 1.2em;
+        width: 260px;
 }
 
 /* HAMBURGER ICON */
@@ -218,7 +217,8 @@ header .menu-nav-icon {
 header .main-menu {
         font-size: 1.1em;
         float: right;
-        margin-right: -10%;
+        margin-right: -15px;
+        width: 260px;
 }
 
 header .main-menu li.drop-down {
