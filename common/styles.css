@@ -769,9 +769,10 @@ section {
 
 /* BACKGROUND COLOR*/
 
-.bg-seller{ background: url(../images/sellers-1-1600x1600.jpg)  no-repeat; background-size: cover; position: relative; z-index: 1; }
+.bg-seller{ background: url(../img/2x/fire-cropped.png)  no-repeat; background-size: cover; position: relative; z-index: 1; }
+.bg-seller2{ background: url(../img/2x/bg.png)  no-repeat; background-size: cover; position: relative; z-index: 1; }
 
-.bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; background: rgba(0,0,0,.85); }
+/* .bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; } */
 
 .bg-191 { background: #191919; }
 
