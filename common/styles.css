@@ -896,6 +896,10 @@ section {
 
 .bg-white {  background: #fff; }
 
+.process-section { z-index: 3; padding: 0; margin-bottom: -150px; margin-top: -150px; }
+.process-section::after { content : url(../img/cut-gradient-b.png);}
+.process-section::before { content : url(../img/cut-gradient-t.png) }
+
 
 
 /* RESPONSIVE */
