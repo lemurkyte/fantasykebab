@@ -769,7 +769,14 @@ section {
 
 /* BACKGROUND COLOR*/
 
-.bg-seller{ background: url(../img/2x/fire-cropped.png)  no-repeat; position: relative; z-index: 1; }
+.bg-seller{
+        background-image: 
+    /* top image*/
+    linear-gradient(to top, rgba(0, 0, 0, 1) 2%, rgba(100, 51, 51, 0.397) 25%, rgba(51, 51, 51, 0) 100%),
+    /*bottom image*/
+    url(../img/2x/fire-cropped.png);
+  }
+
 .bg-seller2{ background: url(../img/2x/bg.png)  no-repeat; background-size: cover; position: relative; z-index: 1; }
 
 /* .bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; } */
