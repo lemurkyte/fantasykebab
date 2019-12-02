@@ -1199,11 +1199,11 @@ section {
 
 .sided-90x { position: relative; }
 
-.sided-90x .s-left { position: absolute; top: 0; left: -3%; height: 120px; width: 120px;}
+.sided-90x .s-left { position: absolute; top: 0px; left: -15px; border-top-left-radius: 10px; height: 120px; width: 120px;}
 
 .sided-90x .s-left.rounded img { border-radius: 90px; overflow: hidden; }
 
-.sided-90x .s-right { margin-left: 115px; min-height: 90px; }
+.sided-90x .s-right { margin-left: 130px; min-height: 90px; }
 
 
 /*SIDED 130x*/
@@ -1280,6 +1280,10 @@ ul.selecton li > a{ padding: 15px 30px;   }
 
 ul.selecton li:hover a,
 ul.selecton li a.active{ border-radius: 7px; background: rgb(255, 196, 0); color: rgb(0, 0, 0);  }
+
+.product-img{ background: url("../img/1x/kebabs.jpg"); background-repeat: no-repeat; background-size: cover;}
+.product-btn{ margin-right: -15px; border: none; border-bottom-right-radius: 10px;}
+.product-text{ width: 90%; }
 
 .food-menu{ display: none; border-radius: 10px; background-color: white; color: black;}
 .food-menu.active{ opacity: 0; display: block!important; animation: full-opacity-anim .3s forwards; }
