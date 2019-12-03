@@ -46,7 +46,7 @@
         </header>
 
 
-        <section class="gradient bg-seller h-600x main-slider pos-relative">
+        <section class="bg-seller h-700x main-slider pos-relative">
                 <div class="container h-100">
                         <div class="dplay-tbl">
                                 <div class="dplay-tbl-cell center-text color-white">
@@ -60,7 +60,7 @@
 
         
 
-        <section class="story-area bg-seller2 color-white pos-relative" style="padding-bottom: 300px;">
+        <section class="story-area color-dark pos-relative" style="padding-bottom: 300px;">
                 <div class="container">
                         <div class="heading">
                                 <h2>Menu</h2>
@@ -196,7 +196,7 @@
                                                 
                                         </div><!-- col-md-6 -->
                                         
-                                        <div class="fa fa-map-marker"></i><a href="https://goo.gl/maps/tLgJURivmMwppFVW7">Mejlsvej 45, 6800 Varde</a></div>
+                                        <div id="map" class="col-md-4 "></div>
                                         <!-- col-md-6 -->
                                 </div><!-- row -->
                                 <form class="form-style-1 placeholder-1">
@@ -272,6 +272,26 @@
         </footer>
 
         <!-- SCIPTS -->
+        <script>
+        function initMap(){
+                //map options
+                var options = {
+                        zoom: 18, 
+                        center:{lat:56.459778,lng:10.035546}
+                }
+                //new map
+                var map = new google.maps.Map(document.getElementById('map'), options);
+                //add Marker
+                var marker = new google.maps.Marker({
+                        position:{lat:56.459778,lng:10.035546},
+                        map:map
+                });
+
+        }
+        </script>
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3GIiMdQre0OuQUEm9cgN1VnyQFsanSwQ&callback=initMap">
+        </script>
         <script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
         <script src="plugin-frameworks/bootstrap.min.js"></script>
         <script src="plugin-frameworks/swiper.js"></script>
